@@ -7,7 +7,7 @@ function util(val) {
 
 bands.sort((a,b)=> util(a)>util(b)?1:-1);
 
-const ul = document.getElementById("band");
+const ul = document.getElementById("bands");
 
 bands.forEach((item)=>{
 	const li = document.createElement("li");
